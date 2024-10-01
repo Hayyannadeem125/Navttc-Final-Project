@@ -10,7 +10,7 @@ const TestimonialData = [
   },
   {
     id: 2,
-    name: "Zubair Rana",
+    name: "Zubair Rajpoot",
     text: "The SimpleLibrary system is a simulation of a basic library where there are two types of books, RegularBook and ProtectedBook, and two types of readers, RegularReader and AdvancedReader .",
     img: "https://picsum.photos/102/102",
   },
@@ -102,8 +102,8 @@ const Testimonials = () => {
                   </div>
                   <div className="flex flex-col items-center gap-4">
                     <div className="space-y-3">
-                      <p className="text-xs text-gray-500">{data.text}</p>
-                      <h1 className="text-xl font-bold text-black/80 dark:text-light">
+                      <p className="text-xs text-white-500">{data.text}</p>
+                      <h1 className="text-xl font-bold text-amber-500 dark:text-light">
                         {data.name}
                       </h1>
                     </div>
